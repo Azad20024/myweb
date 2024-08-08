@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+@keyframes an1
+{
+from{transform:rotate(0deg);}
+top{transform:rotate(360deg);}
+}
+
+
+
+
+#box{
+width:500px;
+height:500px;
+background:black;
+margin:auto;
+perspective;:400px;
+}
+#p1{
+width:200px;
+height:200px;
+background:red;
+position:absolute;
+top:100px;
+left:300px;
+}
+#p2{
+ width:200px;
+height:200px;
+background:yellow;
+position:absolute;
+top:100px;
+left:300px;
+animation:an1 2s infinite alternate;
+} 
+
+#p2:hover{
+    animation:an1 2s infinite alternate;
+   
+}
+
+</style>
+
+
+
+</head>
+<body>
+<div id="box">
+<div id="p1">One</div>
+<div id="p2">Two</div>
+</div>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

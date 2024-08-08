@@ -1,0 +1,137 @@
+<!doctype html>
+
+<html>
+<head> <title> icon </title> </head>
+
+<link rel="icon" href="image/logo.jpg">
+
+
+
+
+<style>
+
+
+
+
+@keyframes glow
+{
+
+10%{transform:rotateY(180deg) rotateX(0deg);perpective:100px;}
+20%{transform:rotateY(180deg) rotateX(360deg);rotateZ(360deg)}
+30%{transform:rotateY(120deg) rotateX(120deg);}
+40%{transform:rotateY(10deg) rotateX(110deg);}
+50%{transform:rotateY(120deg) rotateX(30deg);}
+60%{transform:rotateY(100deg) rotateX(360deg);rotateX(60deg)}
+70%{transform:rotateY(70deg) rotateX(30deg);}
+80%{transform:rotateY(40deg) rotateX(130deg);rotateX(310deg)}
+90%{transform:rotateY(80deg) rotateX(80deg);}
+100%{transform:rotateY(120deg) rotateX(360deg);}
+
+
+}
+
+
+
+
+#box
+{
+width:500px;
+height:500px;
+background:black;
+perspective:300px;
+}
+
+
+
+
+.mypic
+{
+border-radius:15%;
+box-shadow:20px 20px 20px gray;
+border:3px black solid;
+width:300px;
+transition:1.50s;
+opacity:0.75;
+border:12px cyan ridge;
+cursor:pointer;
+animation:glow 25s ease-in infinite alternate ;
+
+}
+
+mypic:hover
+{
+//transform:scale(2) rotateY(360deg);
+
+transform:rotateY(15deg);
+transform:rotateX(15deg);
+
+
+
+border-radius:10px;
+opacity:1;
+//animation:glow 0.50s infinite alternate;
+}
+
+
+
+
+.text
+{
+
+border:3px black solid;
+color:white;
+font-size:20px;
+box-shadow:20px 20px 20px gray;
+margin-top:5%;
+padding:20px;
+background:#FFE0B5;
+margin-left:5%;
+margin-right:5%;
+border-radius:15px;
+}
+
+
+
+
+
+
+
+
+</style>
+
+<h1 style="font-size:80px;"><b><i><font color="#481E14"> prectise work</font> </b></i></h1>
+
+
+<body style="text-align:center" bgcolor="#FFA1CF";>
+
+
+<hr style="color:black;"><br/>
+
+<div id="box">
+<img class="mypic" src="image/azad.png">
+</div>
+
+
+
+
+
+
+
+
+<div>
+<p class="text">
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+</p></div>
+</body>
+</html>
